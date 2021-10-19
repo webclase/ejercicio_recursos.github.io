@@ -1,0 +1,92 @@
+/* CSS files add styling rules to your content */
+
+*{padding:0;
+  margin:0;
+  text-decoration:none;
+}
+
+img {
+  width:100%;
+  height:auto;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height:1.5em;
+  background: #80304C;
+  color: #80304C;
+  text-align:center;
+}
+
+.contenedor{
+  width: 70%;
+  margin:auto;}
+
+/*Navegador*/
+.navegator {
+  background-color: #fcd5ce;
+  padding: 24px; 
+}
+
+.navegator ul li {
+  display:inline;
+
+}
+
+.navegator ul li a{
+  color: #80304C;
+  font-weight: 800;
+  padding: 0px 15px;
+  border: 7px solid;
+  margin: 0px 7px;
+}
+
+.navegator ul li a:hover{
+    background-color: #fec89a;   
+}
+
+
+/*Cajas títulos*/
+.t1 {
+  padding:.5em;
+  margin: 1em 0em;
+}
+
+.t2 {
+  padding:.7em;
+  margin: 1em 0em;
+  border:4px solid;
+}
+
+/*Cajas Información*/
+.lugares{
+  padding:2em;
+  margin:2em;
+  background: #f8edeb;
+}
+
+.lugares:nth-child(2){
+  background: #ffd7ba;
+}
+
+.lugares:nth-child(3){
+  background: #fcd5ce;
+}
+
+/*Cajas Hipervínculos*/
+.contacto {
+  margin: 2em 0em;
+  padding:.4em;
+  text-align:right;
+}
+
+.contacto a{
+  border:4px solid;
+  padding:.4em;
+  color: #F15060;
+}
+
+.contacto a:hover{
+  color: #f8edeb;
+  background: #fec5bb;
+}
